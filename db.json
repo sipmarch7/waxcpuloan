@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "text": "Hi"
+        },
+        {
+            "id": 2,
+            "text": "You"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "text": "Hi"
+        },
+        {
+            "id": 2,
+            "text": "You"
+        }
+    ]
+}
