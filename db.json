@@ -1,22 +1,110 @@
 {
-    "tasks": [
+    "users": [
         {
             "id": 1,
-            "text": "Hi"
+            "email": "sipmarch7@hotmail.com",
+            "waxAddress": "lv5b.wam",
+            "password": "12345"
         },
         {
             "id": 2,
-            "text": "You"
+            "email": "test@test.com",
+            "waxAddress": "test.wam",
+            "password": "test"
+        },
+        {
+            "id": 3,
+            "email": "test2@test2.com",
+            "waxAddress": "test2.wam",
+            "password": "test2"
         }
     ],
-    "products": [
+
+    "balances": [
         {
             "id": 1,
-            "text": "Hi"
+            "nameid": "total-balance",
+            "name": "Total balance",
+            "balance": 150,
+            "token": "WAX"
         },
         {
             "id": 2,
-            "text": "You"
+            "nameid": "laoned-balance",
+            "name": "Loaned balance",
+            "balance": 50,
+            "token": "WAX"
+        },
+        {
+            "id": 3,
+            "nameid": "user-earned-balance",
+            "name": "User Earned balance",
+            "balance": 5,
+            "token": "WAX"
+        }
+    ],
+
+    "listings": [
+        {
+            "id": 1,
+            "creditor": "test.wam",
+            "duration": "24",
+            "loaningAmount": 100,
+            "fee": 0.015,
+            "debtor": "lv5b.wam",
+            "status": "sold",
+            "saleTime": "some full date"
+        },
+        {
+            "id": 2,
+            "creditor": "test2.wam",
+            "duration": "48",
+            "loaningAmount": 100,
+            "fee": 0.02,
+            "debtor": "",
+            "status": "active",
+            "saleTime": ""
+        },
+        {
+            "id": 3,
+            "creditor": "lv5b.wam",
+            "duration": "48",
+            "loaningAmount": 100,
+            "fee": 0.02,
+            "debtor": "",
+            "status": "active",
+            "saleTime": ""
+        }
+    ],
+
+    "loanType": [
+        {
+            "id":1,
+            "issuer": "creator",
+            "duration": 24,
+            "fee": 0.01,
+            "minimum": 0.5
+        },
+        {
+            "id":2,
+            "issuer": "creator",
+            "duration": 48,
+            "fee": 0.015,
+            "minimum": 0.5
+        },
+        {
+            "id":3,
+            "issuer": "user",
+            "duration": 24,
+            "fee": 0.015,
+            "minimum": 0.5
+        },
+        {
+            "id":3,
+            "issuer": "user",
+            "duration": 48,
+            "fee": 0.02,
+            "minimum": 0.5
         }
     ]
 }
